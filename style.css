@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin', sans-serif;
+    box-sizing: border-box;
+}
+.bgimg{
+    height: 100vh;
+    width: 100%;
+    background-image: url(black-bricks-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: limegreen;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: limegreen;
+    transition: .4s;
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    transform: translate(-50%);
+    margin-left: 10%;
+}
+h1{
+    color: limegreen;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+    font-family: 'kaushan script'
+}
+h3{
+    color: white;
+    margin-bottom:50px ;
+    font-size: 25px;
+}
+h4{
+    color: white;
+    font-size: 25px;
+    line-height: 20px;
+}
+main .content{
+    text-align: center;
+}
+.mail{
+    height: 50px;
+    width: 300px;
+    padding: 10px 10px 10px 20px;
+    font-size: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.submit{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: limegreen;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.submit:hover{
+    color: limegreen;
+    background-color: transparent;
+    border: 5px solid limegreen;
+}
+.hello{
+    font-size: 50px;
+    color: white;
+}
+.after_slide{
+    background-color: rgb(31, 30, 30);
+    font-size: 20px;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    line-height: 50px
+}
+.after_slide input{
+    width: 30%;
+    height: 10%;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.after_slide .icons img{
+    border-radius: 10px;
+    margin:5px;
+}
+.table{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+}
+#education{
+    text-align: center;
+}
+#subhead{
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: limegreen;
+}
+table{
+    padding: 5px;
+    margin: 30px 5px 20px 5px;
+}
+.form{
+    font-size: 20px;
+    color: white;
+    margin: 50px 300px 5px 300px;
+    border:1px solid white;
+    line-height: 50px
+}
+.submit{
+    padding: 10px;
+}
+.submit:hover{
+    border: 2px solid limegreen;
+}
+.box{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+}
+.trihead{
+    font-size: 25px;
+}
+table td a{
+    text-decoration: none;
+    color: white;
+}
+.skills{
+    line-height: 60px;
+    margin-top: 100px;
+    font-size: 30px;
+    list-style: none;
+    padding: 50px 50px 30px 50px;
+    margin-left: 500px;
+}
+.left{
+    margin-left: 250px;
+    text-align: justify;
+    padding-right: 100px;
+    color: limegreen;
+}
+.right{
+    color: white;
+    margin-right: 250px;
+    text-align:justify ;
+}
+.form form ::placeholder{
+    color: white;
+}
